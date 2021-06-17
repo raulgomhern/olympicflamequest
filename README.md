@@ -25,7 +25,7 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 
 * Version: 1.0
 * Font: Ubuntu
-* Content from: [Europeana Collections](http://europeana.eu)
+* Content from: [Europeana Collections](https://europeana.eu)
 * Type of content: original and reused video, audio and images from several institutions
 * Responsiveness: computer and tablet
 
@@ -41,4 +41,4 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 
 ## Acknowledgment
 
-Thanks to all the staff from the Europeana Foundation for helping me to create this educational resource in the framework of the [Europeana Sport Campaign] (https://pro.europeana.eu/page/europeana-sport) in the processes of script checking, voice recording, code checking, time planning and dissemination of the project.
+Thanks to all the staff from the Europeana Foundation for helping me to create this educational resource in the framework of the [Europeana Sport Campaign](https://pro.europeana.eu/page/europeana-sport) in the processes of script checking, voice recording, code checking, time planning and dissemination of the project.
