@@ -1,0 +1,49 @@
+
+    h1 {
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 22px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-family: Ubuntu;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: left;
+        padding-left: 12px;
+    }
+
+    h3 {
+        font-family: Ubuntu;
+        font-weight:bold;
+        font-size: 16.5px;
+        text-align: left;
+        padding-left: 18px;
+    }
+
+    h4 {
+        font-family: Ubuntu;
+        font-weight:bold;
+        font-size: 15px;
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    h5 {
+        font-family: Ubuntu;
+        font-weight:normal;
+        font-size: 14px;
+        text-align: left;
+        padding-left: 20px;
+
+    }
+    h6 {
+        font-family: Ubuntu;
+        font-weight:normal;
+        font-size: 14px;
+        text-align: left;
+        padding-left: 70px;
+        
+    }
+        

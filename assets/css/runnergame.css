@@ -1,0 +1,42 @@
+    html, body {
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        display: block;
+        overflow: hidden;
+      }
+.modal {
+  display:none;
+  position: fixed; 
+  left:5%;
+  top: 35px;
+}
+.modal-content {
+  background-image: url(../img/bakground-games.png);
+  width:105%;
+  height:165px;
+  border: 1px solid #888;
+}
+.closerunner {
+  background-color: orange;
+  color: black;
+  position: absolute;
+  width: 10%;
+  height: 25px;
+  left:55%;
+  top:120px;
+  font-size: 9px;
+  font-weight: bold;
+}
+.myBtnrunner{
+  background-color: orange;
+  color: black;
+  position: absolute;
+  width: 10%;
+  height: 25px;
+  left:40%;
+  top:120px;
+  font-size: 9px;
+  font-weight: bold;
+}

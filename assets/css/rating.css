@@ -1,0 +1,23 @@
+body  {
+  background-image: url(../img/fondo.jpg)
+}
+.generalcontainerscoring {
+  width:100%;
+}
+.text-scoring {
+      position: absolute;
+      top: 160px;
+      left: 40%;
+      font-family: Ubuntu;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 35px;
+      text-align: center;
+      color: white;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+  .backgroundscoring{
+    width:100%;
+  }  
+}

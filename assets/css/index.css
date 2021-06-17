@@ -1,0 +1,158 @@
+body  {
+  background-image: url(../img/fondo.jpg)
+}
+.generalcontainer{
+    width:100%;
+  }
+  .choose-language
+      {
+        position: relative;
+        top: 165px;
+        left: -1%;
+        font-family: Ubuntu;
+        font-style: bold;
+        font-size: 18px;
+        text-align: center;
+        color: white;
+      }
+  .logofinal
+      {
+        position: relative;
+        height: 17%;
+        width: 17%;
+        top: 130px;
+        left: 40%;
+      }
+  
+  .made-with-europeana
+      {
+        position: relative;
+        height: 4%;
+        width: 4%;
+        top: 315px;
+        left: 65%;
+      }
+      .tooltip {
+    /*imagen*/
+    position: absolute;
+    left: 20%;
+    top: 80px;
+  }
+  .tooltip .tooltiptext {
+    /*texto*/
+    visibility: hidden;
+    width: 100%;
+    height: 225%;
+    color: black;
+    font-family: Ubuntu;
+    font-style: bold;
+    font-size: 13px;
+    font-weight: 20px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom:-50%;
+    top: 38px;
+    left: 10%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    box-sizing:border-box;
+  }
+  
+  .tooltip .tooltiptext::after {
+    /*flecha*/
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 43%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white;
+    box-sizing:border-box;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    /*cuadro de texto*/
+    visibility: visible;
+    opacity: 1;
+    left: 12px;
+    background-color: white;
+  
+  }
+  .dropbtn 
+       /*botón menu*/
+    {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    box-sizing:border-box;
+  }
+  
+  .dropdown 
+   /*caja menu*/
+  {
+    position: relative;
+    display:inline-block;
+    left: 45.5%;
+    top: 210px;
+    
+  
+  }
+  
+  .dropdown-content 
+   /*cajones posbles*/
+  {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a 
+   /*opciones posibles*/
+  {
+    color: black;
+    font-size: 13px;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    box-sizing:border-box;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    overflow:auto;
+    max-height:80px;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: orange;
+  }
+  
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+    .tooltip{
+      width:25%;
+    }
+    .logofinal{
+      width:20%;
+    }
+    .made-with-europeana{
+      width: 4%;
+    }
+    .fondo{
+      width:100%;
+      height: 292%;
+    }
+  }
+    
