@@ -15,17 +15,11 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 
 [Try the demo version] ()
 
-## License
-
-- **CC-BY-SA 4.0.** Read the [License.md](License.md) file to know the specifications about it.
-
 ## Technologies used
 
 * JavaScript (ES6)
 * HTML5
-* CSS
-* git
-* HTML5 audio
+* CSS3
 
 ## Technical characteristics
 
@@ -40,6 +34,10 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 * Implementation of Europeana media player for the videos
 * Europeana API Rest connection for the sources.
 * Responsiveness improvement
+
+## License
+
+- **CC-BY-SA 4.0.** Read the [License.md](License.md) file to know the specifications about it.
 
 ## Acknowledgment
 
