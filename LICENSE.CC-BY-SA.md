@@ -2,9 +2,14 @@
 
 **💬 Note about the license**
 
-All content used for this educational tool have been obtain from Europeana Collections.
+ All content used for this educational tool have been obtain from Europeana Collections.
+
+
 All content reused for this tool as image, audio or video have been obtain from Europeana Collections and the attribution credits are reserved to Raul Gomez Hernandez.
+
+
 All content under Copyright belong to their respective owners and are protected under international copyright laws. They have been used with the institutions and providers permission for an educational use.
+
 
 In general, the content available here follow CC BY SA 4.0 or compatible license. However, some items have other Creative Commons licenses or also In Copyright license with Educational permission of use. 
 
