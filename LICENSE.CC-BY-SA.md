@@ -1,9 +1,15 @@
-## creative commons
+## License
 
 **💬 Note about the license**
 
-In general, the data available here follow CC BY SA 4.0 or compatible license. However, some items have other Creative Commons licenses or have In Copyright license with Educational permission of use,  
-In any case, read the file [Rights_Attributions.md](Rights_Attributions.md) for more information about each file. If you reuse these sources for educational purposes, it is not necessary to ask for permission to use these sources, as long as you cite the source, in any case check with the providers cited.
+All content used for this educational tool have been obtain from Europeana Collections.
+All content reused for this tool as image, audio or video have been obtain from Europeana Collections and the attribution credits are reserved to Raul Gomez Hernandez.
+All content under Copyright belong to their respective owners and are protected under international copyright laws. They have been used with the institutions and providers permission for an educational use.
+
+In general, the content available here follow CC BY SA 4.0 or compatible license. However, some items have other Creative Commons licenses or also In Copyright license with Educational permission of use. 
+
+In any case, read the file [Rights_Attributions.md](Rights_Attributions.md) for more information about each file. To reuse these sources for educational purposes, it is not necessary to ask for permission, as long as you cite the source, and only in case an In Copyright license content must be used, please check with the institution.
+
 
 [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
