@@ -1,7 +1,6 @@
 p{
   font-weight: normal;
   font-family: Ubuntu; 
-  font-size: 14px;
   margin-bottom: 28px;
 }
 body  {
@@ -343,21 +342,21 @@ padding: 20px;
 }
 .modal-content-olympia {
   background-image: url(../img/background-modal.png);
-  width:111.5%;
-  height:548px;
-  border: 1px solid #888;
+  width:112%;
+  height:560px;
+  border: 0px;
 }
 .closeolymp {
   position: absolute;
-  left: 295px;
-  top: 10px;
+  left: 305px;
+  top: 14px;
 }
 .modal-header-olympia {
   position: relative; 
-  padding-top: 45px;
-  padding-bottom: 15px;
+  padding-top: 55px;
+  padding-bottom: 10px;
   text-align: center;
-  left: 2px;
+  left: 7px;
   right:25px;
 }
 
@@ -385,7 +384,7 @@ padding: 20px;
   position: absolute;
   padding-top: 120px;
   left: 7px;
-  top: 60px;
+  top: 25px;
 }
 .modalthebes{
   display:none;
@@ -396,7 +395,7 @@ padding: 20px;
 .modal-content-thebes{
   background-image: url(../img/background-modal.png);
   width:41%;
-  height:568px;
+  height:545px;
   border: 1px solid #888;
 }
 .pantheon-thebes{
@@ -412,7 +411,7 @@ padding: 20px;
 }
 .modal-header-thebes {
   position: relative; 
-  padding-top: 13px;
+  padding-top: 15px;
   text-align: center;
   font-family: Ubuntu;
   font-weight:regular;
@@ -428,13 +427,14 @@ color:navy;
 font-family: Ubuntu;
 font-weight:regular;
 font-size: 11.5px;
+margin-top: -45px;
 }
 
-.container-gym {
-  position: relative;
+.gymnastics {
+  position: absolute;
   padding-top: 11px;
-  left: -10%;
-  top: -524px;
+  left: 15%;
+  top: 135px;
 }
 
 .playtheb {
@@ -442,8 +442,8 @@ font-size: 11.5px;
   background-repeat: no-repeat;
   background-color: transparent;
   border:0px;
-  left: 33%;
-  top: 305px;
+  left: 30%;
+  top: 292px;
 }
 
 .modalrunner{
@@ -496,8 +496,8 @@ top: 70px;
 }
 .modal-content-miletus1{
   background-image: url(../img/background-modal.png);
-  width: 107.5%;
-  height: 548px;
+  width: 110%;
+  height: 570px;
   border: 1px solid #888;
   overflow: hidden;
 }
@@ -514,30 +514,34 @@ top: 70px;
 }
 
 .modal-header-miletus1{
+  position: relative;
   font-family: Ubuntu;
   font-weight:regular;
   font-size: 13px;
+  padding-top: 195px;
   color: black;
   text-align: center;
 }
 .fence{
   position: absolute;
   left: 1%;
-  top: 0px;
+  top: 20px;
 }
 
 .modal-body-miletus1 {
+  position:absolute;
   text-align: center;
   color:navy;
   font-family: Ubuntu;
   font-weight:regular;
   font-size: 11px;
+  margin-top: -35px;
 }
 
-.gymnastics {
+.theatre-miletus {
   position: absolute;
-  left: 25%;
-  top: 360px;
+  left: 20%;
+  top: 140px;
 }
 
 .nextmiletus {
@@ -546,7 +550,7 @@ top: 70px;
   background-color: transparent;
   border:0px;
   left: 10%;
-  top: 510px;
+  top: 300px;
 }
 .modalmiletus2 {
   display: none;
@@ -657,7 +661,7 @@ top: 65px;
 .modal-content-corinth{
   background-image: url(../img/background-modal.png);
   width:53.3%;
-  height:548px;
+  height:565px;
   border: 1px solid #888;
 }
 
@@ -675,7 +679,7 @@ top: 65px;
 
 .modal-header-corinth {
   position: relative; 
-  padding-top: 17px;
+  padding-top: 20px;
   text-align: center;
   font-family: Ubuntu;
   font-weight:regular;
@@ -691,13 +695,13 @@ top: 65px;
   font-family: Ubuntu;
   font-weight:regular;
   font-size: 10px;
-  padding-top: 1px;
+  padding-top: -35px;
 }
 
 .container-corinth {
   position: absolute;
-  left: 18%;
-  top: 158px;
+  left: 22%;
+  top: 175px;
 }
 
 .playcorinth {
@@ -705,7 +709,7 @@ top: 65px;
   background-repeat: no-repeat;
   background-color: transparent;
   border:0px;
-  left: 38%;
+  left: 34%;
   top: 292px;
 }
 .modal-puzzle{
@@ -773,17 +777,17 @@ top:330px;
 }
 
 .modal-header-sparta {
+  position:relative;
   font-family: Ubuntu;
   font-weight:regular;
-  font-size: 13px;
   color: black;
   text-align: center;
 }
 
 .leonidas{
   position: absolute;
-  left: 42%;
-  top: 20px;
+  left: 30%;
+  top: 10px;
 }
 
 .modal-body-sparta {
@@ -793,19 +797,19 @@ top:330px;
   font-family: Ubuntu;
   font-weight:regular;
   font-size: 10px;
-  top: -35px;
+  top: -15px;
 }
 .container-sparta {
   position: absolute;
-  left: 18%;
-  top: 145px;
+  left: 21%;
+  top: 135px;
 }
 .playsparta {
   position: absolute;
   background-repeat: no-repeat;
   background-color: transparent;
   border:0px;
-  left: 38%;
+  left: 30%;
   top: 276px;
 }
 .modal-quiz{
@@ -859,7 +863,7 @@ top:230px;
 .modal-content-athens{
   background-image: url(../img/background-modal.png);
   width:41%;
-  height:548px;
+  height:565px;
   border: 1px solid #888;
 }
 .pantheon-athens {
@@ -875,7 +879,8 @@ top:230px;
 }
 .modal-header-athens {
   position: relative; 
-  padding-top: 15px;
+  padding-top: 25px;
+  margin-bottom: -20px;
   text-align: center;
   font-family: Ubuntu;
   font-weight:regular;
@@ -903,8 +908,8 @@ font-size: 8.5px;
   background-repeat: no-repeat;
   background-color: transparent;
   border:0px;
-  left: 40%;
-  top: 281px;
+  left: 35%;
+  top: 290px;
 }
 
 .modal-theatre {

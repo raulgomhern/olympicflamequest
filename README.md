@@ -33,6 +33,7 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 
 * Implementation of Europeana media player for the videos
 * Europeana API Rest connection for the sources.
+* Multilingual functionality available (rules, instructions and subtitles)
 * Responsiveness improvement
 
 ## License
