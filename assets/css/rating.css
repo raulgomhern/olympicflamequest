@@ -1,23 +1,96 @@
 body  {
   background-image: url(../img/fondo.jpg)
 }
-.generalcontainerscoring {
-  width:100%;
-}
 .text-scoring {
-      position: absolute;
-      top: 160px;
-      left: 40%;
-      font-family: Ubuntu;
-      font-weight: bold;
-      font-size: 16px;
-      line-height: 35px;
-      text-align: center;
-      color: white;
+    position: absolute;
+    top: 1%;
+    left: 40%;
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 2.2em;
+    text-align: center;
+    color: white;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
-  .backgroundscoring{
-    width:100%;
+.container-form {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+.feedback-form{
+  position: absolute;
+  top: 13%;
+  left: 30%;
+  width: 45%;
+  height: 70%;
+  border: none;
+    
+}
+
+/* Tablet 6, similars & above */
+
+@media only screen and (min-width: 768px) and (orientation: landscape){
+  .text-scoring{
+    font-size: 1.5em;
+    left: 27.5%;
+    top: 12%;
   }  
+  .feedback-form{
+    top:40%;
+    left: 23%;
+    height: 100%;
+    width: 55%;
+  }
+}
+
+/* Ipad, similars & above */
+
+@media only screen and (min-width: 1024px) and (orientation: landscape){
+  
+  .text-scoring{
+    font-size: 2em;
+    top: 12%;
+    left:27%;
+}  
+
+  .feedback-form{
+    top:37%;
+    left:23.7%;
+    height: 100%;
+    
+  }
+}
+
+/* Laptops & screens 15-19 inch & above */
+
+@media only screen and (min-width: 1224px) and (orientation: landscape){
+  .text-scoring{
+    font-size: 2.2em;
+    top: 8%;
+    left:31%;
+  }  
+  .feedback-form{
+    top:26%;
+    left: 27.5%;
+    height: 100%;
+    width: 50%;
+  }
+}
+
+/* Screens & Desktops 19 inch & above */
+
+@media only screen and (min-width: 1600px) and (orientation: landscape){
+  .text-scoring{
+    font-size: 2.5em;
+    left: 35%;
+    top: 8%;
+  }  
+  .feedback-form{
+    top:26%;
+    left: 28%;
+    height: 100%;
+  }
 }

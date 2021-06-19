@@ -23,11 +23,15 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 
 ## Technical characteristics
 
-* Version: 1.0
-* Font: Ubuntu
-* Content from: [Europeana Collections](https://europeana.eu)
-* Type of content: original and reused video, audio and images from several institutions
-* Responsiveness: computer and tablet
+- Version: 1.0
+- Font: Ubuntu
+- Content from: [Europeana Collections](https://europeana.eu)
+- Type of content: original and reused video, audio and images from several institutions
+- Responsiveness: computer and tablet in landscape orientation 
+   - Tablet 6 inch, similars & above - min-width: 768px
+   - Ipad, similars & above - min-width: 1024px; 
+   - Laptops, screens 15-19 inch & above - min-width: 1224px; 
+   - Screens, Desktops 19 inch & above - min-width: 1600px)
 
 ## Next steps for version 1.1
 
