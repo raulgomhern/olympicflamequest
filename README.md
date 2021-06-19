@@ -25,13 +25,14 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 
 - Version: 1.0
 - Font: Ubuntu
-- Content from: [Europeana Collections](https://europeana.eu)
-- Type of content: original and reused video, audio and images from several institutions
-- Responsiveness: computer and tablet in landscape orientation 
-   - Tablet 6 inch, similars & above - min-width: 768px
-   - Ipad, similars & above - min-width: 1024px; 
-   - Laptops, screens 15-19 inch & above - min-width: 1224px; 
-   - Screens, Desktops 19 inch & above - min-width: 1600px)
+- Content provided by: European cultural institutions & Europeana aggregators.
+- Content taken from: [Europeana Collections](https://europeana.eu)
+- Type of content: Original and reused video, audio and images from several institutions
+- Responsiveness: Screens and tablet in landscape orientation. 
+   - Default device: Tablet 6 inch or similar, min-width: 768px
+   - Ipad, similars & above, min-width: 1024px
+   - Laptops, screens 15-19 inch & above, min-width: 1224px
+   - Screens, Desktops 19 inch & above, min-width: 1600px
 
 ## Next steps for version 1.1
 
@@ -47,3 +48,23 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 ## Acknowledgment
 
 Thanks to all the staff from the Europeana Foundation for helping me to create this educational resource in the framework of the [Europeana Sport Campaign](https://pro.europeana.eu/page/europeana-sport) in the processes of script checking, voice recording, code checking, time planning and dissemination of the project.
+
+Thanks to the following cultural institutions and Europeana aggregators for the content provided and the permission given to make possible the current educational resource:
+
+* CNRS-LARHRA
+* Music Library of Greece of The Friends of Music Society
+* University of Bologna
+* Hellenic Literary and Historical Archive (ELIA) - National Bank Educational Foundation (MIET).
+* The Archaeological Society at Athens
+* Hellenic Olympic Committee
+* Museum of Modern Olympic Games
+* American School of Classical Studies at Athens
+* Arbejdermuseet & ABA
+* Stadtgeschichtliches Museum Leipzig
+* Deutsche Fotothek
+* Sportimonium vzw
+* Netherlands Institute for Sound and Vision
+* EUscreen
+* TV3 Televisió de Catalunya (TVC)
+* National Library of Scotland
+* EFG - The European Film Gateway

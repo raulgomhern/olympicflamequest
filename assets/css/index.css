@@ -1,128 +1,121 @@
 body  {
-  background-image: url(../img/fondo.jpg)
+  background-image: url(../img/fondo.jpg);
 }
-.generalcontainer{
-    width:100%;
-  }
-  .choose-language
-      {
-        position: relative;
-        top: 165px;
-        left: -1%;
+
+  #logofinal {
+        position: absolute;
+        height: 35%;
+        width: 29%;
+        top: 20%;
+        left: 36%;
+      }
+
+  #choose-language {
+        position: absolute;
+        top: 58%;
+        left: 28%;
         font-family: Ubuntu;
         font-style: bold;
-        font-size: 18px;
+        font-size: 1em;
         text-align: center;
         color: white;
+      }  
+  #made-with-europeana {
+        position: absolute;
+        height: 8.5%;
+        width: 5%;
+        top: 78%;
+        left: 81%;
       }
-  .logofinal
-      {
-        position: relative;
-        height: 17%;
-        width: 17%;
-        top: 130px;
-        left: 40%;
-      }
-  
-  .made-with-europeana
-      {
-        position: relative;
-        height: 4%;
-        width: 4%;
-        top: 315px;
-        left: 65%;
-      }
-      .tooltip {
-    /*imagen*/
+      
+  .tooltip {
+    /*image*/
     position: absolute;
-    left: 20%;
-    top: 80px;
+    left: 18%;
+    top: 15%;
+    width: 4%; 
+    height:2.7%;
   }
   .tooltip .tooltiptext {
-    /*texto*/
+    /*text*/
+    position: absolute;
     visibility: hidden;
-    width: 100%;
-    height: 225%;
+    width: 375%;
+    height:500%;
     color: black;
     font-family: Ubuntu;
     font-style: bold;
-    font-size: 13px;
-    font-weight: 20px;
+    font-size: 0.725em;
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
+    border-radius: 6%;
+    padding: 2%;
     z-index: 1;
     bottom:-50%;
-    top: 38px;
-    left: 10%;
-    margin-left: -60px;
+    top: 250%;
+    left: -125%;
+    margin-left: 1%;
     opacity: 0;
     transition: opacity 0.3s;
     box-sizing:border-box;
   }
   
   .tooltip .tooltiptext::after {
-    /*flecha*/
+    /*arrow*/
     content: "";
     position: absolute;
     bottom: 100%;
-    left: 43%;
-    margin-left: -5px;
-    border-width: 5px;
+    left: 45%;
+    margin-left: -0.5%;
+    border-width: 0.5%;
     border-style: solid;
     border-color: transparent transparent white;
     box-sizing:border-box;
   }
   
   .tooltip:hover .tooltiptext {
-    /*cuadro de texto*/
+    /*text box*/
     visibility: visible;
     opacity: 1;
-    left: 12px;
     background-color: white;
   
   }
   .dropbtn 
-       /*botón menu*/
+       /*dropdown menu button*/
     {
     background-color: orange;
     color: white;
-    padding: 20px;
-    font-size: 13px;
+    padding: 28%;
+    font-size: 0.8125em;
     border: none;
     cursor: pointer;
     box-sizing:border-box;
   }
   
   .dropdown 
-   /*caja menu*/
+   /*box menu*/
   {
-    position: relative;
+    position: absolute;
     display:inline-block;
-    left: 45.5%;
-    top: 210px;
-    
-  
+    left: 44.7%;
+    top: 70%;
   }
-  
   .dropdown-content 
-   /*cajones posbles*/
+   /*content boxes*/
   {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 100px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    min-width: 156%;
+    box-shadow: 0em 0.5em 1em 0em rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a 
-   /*opciones posibles*/
+   /*content menu*/
   {
     color: black;
-    font-size: 13px;
-    padding: 12px 20px;
+    font-size: 0.9375em;
+    padding: 0.75em 1.125em;
     text-decoration: none;
     display: block;
     box-sizing:border-box;
@@ -133,26 +126,71 @@ body  {
   .dropdown:hover .dropdown-content {
     display: block;
     overflow:auto;
-    max-height:80px;
+    max-height:100%;
   }
   
   .dropdown:hover .dropbtn {
     background-color: orange;
   }
   
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
-    .tooltip{
-      width:15%;
-    }
-    .logofinal{
-      width:20%;
-    }
-    .made-with-europeana{
-      width: 4%;
-    }
-    .fondo{
-      width:100%;
-      height: 292%;
-    }
+@media only screen and (min-width: 1024px) and (orientation: landscape){
+
+  #choose-language {
+    top: 59%;
+    left: 33%;
+  }  
+  #made-with-europeana {
+    height: 9%;
+    width: 5.5%;
   }
-    
+  .dropdown {
+  left: 46%;
+}
+.tooltip {
+  left: 16%;
+}
+}
+
+@media only screen and (min-width: 1224px) and (orientation: landscape){
+
+  #choose-language {
+    top: 59%;
+    left: 34.5%;
+    font-size: 1.1250em;
+  }  
+
+  #made-with-europeana {
+    height: 9%;
+    width: 5.5%;
+    left: 79%;
+  }
+  .dropdown {
+  left: 46%;
+}
+.dropbtn {
+      font-size: 1em;
+}
+.tooltip {
+  width: 3.5%; 
+ }
+}
+
+@media only screen and (min-width: 1600px) and (orientation: landscape){
+  #choose-language {
+    top: 59%;
+    left: 34%;
+    font-size: 1.6em;
+  }  
+
+  #made-with-europeana {
+    top: 80%;
+    left: 82%;
+  }
+  .dropbtn {
+    font-size: 1.5em;
+ }
+
+.dropdown {
+  left: 45.7%;
+ }
+}

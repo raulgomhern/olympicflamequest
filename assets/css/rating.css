@@ -1,13 +1,13 @@
 body  {
   background-image: url(../img/fondo.jpg)
 }
-.text-scoring {
+#text-scoring {
     position: absolute;
-    top: 1%;
-    left: 40%;
+    top: 15%;
+    left: 27%;
     font-family: Ubuntu;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.5em;
     line-height: 2.2em;
     text-align: center;
     color: white;
@@ -22,34 +22,19 @@ body  {
 
 .feedback-form{
   position: absolute;
-  top: 13%;
-  left: 30%;
-  width: 45%;
+  top: 40%;
+  left: 23%;
+  width: 55%;
   height: 70%;
   border: none;
     
-}
-
-/* Tablet 6, similars & above */
-
-@media only screen and (min-width: 768px) and (orientation: landscape){
-  .text-scoring{
-    font-size: 1.5em;
-    left: 27.5%;
-    top: 12%;
-  }  
-  .feedback-form{
-    top:40%;
-    left: 23%;
-    width: 55%;
-  }
 }
 
 /* Ipad, similars & above */
 
 @media only screen and (min-width: 1024px) and (orientation: landscape){
   
-  .text-scoring{
+  #text-scoring{
     font-size: 2em;
     top: 12%;
     left:27%;
@@ -64,7 +49,7 @@ body  {
 /* Laptops & screens 15-19 inch & above */
 
 @media only screen and (min-width: 1224px) and (orientation: landscape){
-  .text-scoring{
+  #text-scoring{
     font-size: 2.2em;
     top: 8%;
     left:31%;
@@ -79,7 +64,7 @@ body  {
 /* Screens & Desktops 19 inch & above */
 
 @media only screen and (min-width: 1600px) and (orientation: landscape){
-  .text-scoring{
+  #text-scoring{
     font-size: 2.5em;
     left: 35%;
     top: 8%;

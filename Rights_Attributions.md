@@ -94,7 +94,7 @@ All content under Copyright belong to their respective owners and are protected 
 
 **Title:**  Unveiling of the "Discobol" opposite Panathinaiko Stadium. Sculpture by Kostas Dimitriadis, who won a gold medal at the Paris 1924 Olympic Games Art Competition.
 
-**Providing institution:** Ελληνικό Λογοτεχνικό και Ιστορικό Αρχείο (ΕΛΙΑ)- Μορφωτικό Ίδρυμα Εθνικής Τραπέζης (ΜΙΕΤ).
+**Providing institution:** Ελληνικό Λογοτεχνικό και Ιστορικό Αρχείο (ΕΛΙΑ)- Μορφωτικό Ίδρυμα Εθνικής Τραπέζης (ΜΙΕΤ) / Hellenic Literary and Historical Archive (ELIA) - National Bank Educational Foundation (MIET)
 
 **Source:**  Kostas Dimitriadis.
 
@@ -108,7 +108,7 @@ All content under Copyright belong to their respective owners and are protected 
 
 **Title:** The discobol. Scultpture by Kostas Dimitriadis, gold medalist in the 1924 Paris Olympic Art Competition.
 
-**Providing institution:** Ελληνικό Λογοτεχνικό και Ιστορικό Αρχείο (ΕΛΙΑ)- Μορφωτικό Ίδρυμα Εθνικής Τραπέζης (ΜΙΕΤ).
+**Providing institution:** Ελληνικό Λογοτεχνικό και Ιστορικό Αρχείο (ΕΛΙΑ)- Μορφωτικό Ίδρυμα Εθνικής Τραπέζης (ΜΙΕΤ). / Hellenic Literary and Historical Archive (ELIA) - National Bank Educational Foundation (MIET).
 
 **Source:** Kostas Dimitriadis.
 
@@ -122,7 +122,7 @@ All content under Copyright belong to their respective owners and are protected 
 
 **Title:** Θήβα. Πινάκια και λεκανίς άλλη υπέρ τον τάφον.
 
-**Providing institution:** Εν Αθήναις Αρχαιολογική Εταιρεία.
+**Providing institution:** Εν Αθήναις Αρχαιολογική Εταιρεία. /The Archaeological Society at Athens.
 
 **Source:** Ν. Παπαδάκης, Πτυκτόν κάτοπτρον εκ Θηβών, ΑΕ 1914, σ. 126, εικ. 5.
 
@@ -136,7 +136,7 @@ All content under Copyright belong to their respective owners and are protected 
 
 **Title:** Metal statuette of an athlete from the Olympic Games Athens 1896. Leonidas Pyrgos, Masters Foil Fencing, Greece, Athens Olympic Games 1896.
 
-**Providing institution:** Ελληνική Ολυμπιακή Επιτροπή.
+**Providing institution:** Ελληνική Ολυμπιακή Επιτροπή. / Hellenic Olympic Committee.
 
 **Provider:** Museum of Modern Olympic Games
 
@@ -148,7 +148,7 @@ All content under Copyright belong to their respective owners and are protected 
 
 **Title:** Metal statuette of an athlete from the Olympic Games Athens 1896. Viggo Jensen, Super Heavyweight 2 Hands, Denmark, Athens Olympic Games 1896.
 
-**Providing institution:** Ελληνική Ολυμπιακή Επιτροπή.
+**Providing institution:** Ελληνική Ολυμπιακή Επιτροπή. / Hellenic Olympic Committee.
 
 **Provider:** Museum of Modern Olympic Games
 
@@ -160,7 +160,7 @@ All content under Copyright belong to their respective owners and are protected 
 
 **Title:** Metal statuette of an athlete from the Olympic Games Athens 1896. Robert Garrett, Discus, USA, Athens Olympic Games 1896.
 
-**Providing institution:** Ελληνική Ολυμπιακή Επιτροπή.
+**Providing institution:** Ελληνική Ολυμπιακή Επιτροπή. / Hellenic Olympic Committee.
 
 **Provider:** Museum of Modern Olympic Games
 
@@ -172,7 +172,7 @@ All content under Copyright belong to their respective owners and are protected 
 
 **Title:** Corinth Canal 1933.
 
-**Providing institution:** ΕΑμερικανική Σχολή Κλασικών Σπουδών.
+**Providing institution:** Αμερικανική Σχολή Κλασικών Σπουδών. / American School of Classical Studies at Athens.
 
 **Provider:** Greek Aggregator SearchCulture.gr | National Documentation Centre (EKT)
 
@@ -186,7 +186,7 @@ All content under Copyright belong to their respective owners and are protected 
 
 **Title:** Epidaurus. Persians.
 
-**Providing institution:** Αμερικανική Σχολή Κλασικών Σπουδών.
+**Providing institution:** Αμερικανική Σχολή Κλασικών Σπουδών. / American School of Classical Studies at Athens.
 
 **Provider:** Greek Aggregator SearchCulture.gr | National Documentation Centre (EKT)
 
