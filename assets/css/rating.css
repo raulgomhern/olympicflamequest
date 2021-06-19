@@ -41,7 +41,6 @@ body  {
   .feedback-form{
     top:40%;
     left: 23%;
-    height: 100%;
     width: 55%;
   }
 }
@@ -58,9 +57,7 @@ body  {
 
   .feedback-form{
     top:37%;
-    left:23.7%;
-    height: 100%;
-    
+    left:23.7%
   }
 }
 
@@ -75,7 +72,6 @@ body  {
   .feedback-form{
     top:26%;
     left: 27.5%;
-    height: 100%;
     width: 50%;
   }
 }
@@ -89,8 +85,6 @@ body  {
     top: 8%;
   }  
   .feedback-form{
-    top:26%;
     left: 28%;
-    height: 100%;
   }
 }
