@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="../css/postceremony.css">
 </head>
 <body>
-  <div class="generalcontainerpostceremony">
-    <div style="position: relative; left: 0; top: 0;">
-        <video class="postceremonyvideo" id="myvid2" width="700" height="500" autoplay >
-        <source src="../video/postceremony.mp4" type="video/mp4" >
-      </video> 
+  
+ <button id="startmapp" class="startmap" onclick="startmap()"><img src="../img/start.png"width="25%" height="auto"></button>
+  <div class="containerpostceremony">
+    <video class="postceremonyvideo" id="myvid2" src="../video/postceremony.mp4" type="video/mp4" autoplay ></video>
     </div>
-<div class="text-postceremony"> <p>My name is Antheia. I am the Great Priestess of the Temple of Hera. <br/> Please, help us with this quest. <br/> Travel around Greece guided by the Olympic values and bring the Olympic Flame back.<br/>                                     
-  Now, press the button and let’s start the journey.</p></div>
 
-  <button class="startmap"type="button" onclick="startmap()"><img src="../img/START.png" width="28%" height="auto"></button>
+<p id="text-postceremony"> My name is Antheia. I am the Great Priestess of the Temple of Hera. <br/> Please, help us with this quest. <br/> Travel around Greece guided by the Olympic values and bring the Olympic Flame back.<br/>                                     
+  Now, press the button and let’s start the journey.</p>
       
-  <div class="tooltip-vol"><img src="../img/vol.svg" width="25%" height="auto" alt="volume2">
-    <span class="tooltiptext-vol">Volume is on </a></div>
-  </div>
+  <div class="tooltip-vol">
+    <img src="../img/vol.svg" alt="volume2">
+    <span class="tooltiptext-vol">Volume is on </span></div>
+
   <script type="text/javascript" src="../js/postceremony.js"></script>
 </body>
 </html>
+

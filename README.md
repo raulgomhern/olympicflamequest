@@ -11,7 +11,7 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 
 <br/>
 
-![Image of The Olympic Flame Quest](https://github.com/raulgomhern/olympicflamegame/blob/f77af76f013922c921924e2d477916f58c47f2f0/index.JPG)
+![Image of The Olympic Flame Quest](assets/img/index_readme.JPG)
 
 [Try the demo version] ()
 

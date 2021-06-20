@@ -5,7 +5,7 @@ body  {
   #logofinal {
         position: absolute;
         height: 35%;
-        width: 29%;
+        width: 28%;
         top: 20%;
         left: 36%;
       }
@@ -153,6 +153,12 @@ body  {
 
 @media only screen and (min-width: 1224px) and (orientation: landscape){
 
+  #logofinal {
+    height: 35%;
+    width: 21%;
+    left: 39%;
+  } 
+
   #choose-language {
     top: 59%;
     left: 34.5%;
@@ -161,17 +167,17 @@ body  {
 
   #made-with-europeana {
     height: 9%;
-    width: 5.5%;
+    width: 4%;
     left: 79%;
   }
   .dropdown {
-  left: 46%;
+  left: 46.5%;
 }
 .dropbtn {
-      font-size: 1em;
+      font-size: 0.8525em;
 }
 .tooltip {
-  width: 3.5%; 
+  width: 2.5%; 
  }
 }
 
