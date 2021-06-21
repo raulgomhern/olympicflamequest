@@ -7,26 +7,29 @@
         overflow: hidden;
       }
 .modal {
-  display:none;
+  display: none;
   position: fixed; 
-  left:5%;
-  top: 35px;
+  left: 7%;
+  top:-9%;
+  width:75%; 
+  height: 65%;
 }
 .modal-content {
   background-image: url(../img/bakground-games.png);
-  width:105%;
-  height:165px;
-  border: 1px solid #888;
+  border: 1% solid #888;
+  margin: 15% auto; 
+  padding: 20px;
+  height: inherit;
 }
 .closerunner {
   background-color: orange;
   color: black;
   position: absolute;
   width: 10%;
-  height: 25px;
+  height: 13%;
   left:55%;
-  top:120px;
-  font-size: 9px;
+  top:94%;
+  font-size: 0.5625em;
   font-weight: bold;
 }
 .myBtnrunner{
@@ -34,9 +37,9 @@
   color: black;
   position: absolute;
   width: 10%;
-  height: 25px;
-  left:40%;
-  top:120px;
-  font-size: 9px;
+  height: 13%;
+  left:35%;
+  top:94%;
+  font-size: 0.5625em;
   font-weight: bold;
 }

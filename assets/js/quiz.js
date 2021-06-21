@@ -29,7 +29,7 @@
                         }
                         else{
 
-                        quizBox.innerHTML="<span style='font-size:16px'>Congratulations! You won the last star.<img src=\"../img/star-yellow.svg\" width=\"5%\" height=\"auto\"><br> Now, close the window and travel to the city of Athens. </span>" 
+                        quizBox.innerHTML="<span style='font-size:1em'>Congratulations! You won the last star.<img src=\"../img/star-yellow.svg\" width=\"5%\" height=\"auto\"><br> Now, close the window and travel to the city of Athens. </span>" 
                         op1.style.display="none";
                         op2.style.display="none";
                         op3.style.display="none";

@@ -166,7 +166,7 @@ closetheatre.onclick = function() {
   continuefin.style.visibility = "visible";
 }
 continuefin.onclick = function(){
-  window.location.href = './final.html';
+  window.location.href = '../html/final.html';
 }
 function load() {
   modalrules.style.display = "block";

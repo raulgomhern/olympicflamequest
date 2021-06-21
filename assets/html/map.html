@@ -7,8 +7,7 @@
   <link rel="stylesheet" href="../css/map.css">
 </head>
 <body>
-  <div class="generalcontainermap"position="relative">
-    <div style="position: relative; left: 0; top: 0;">
+  <div class="containermap">
     <img src="../img/mapa.png" class="map"/></div>
     <button id="pantheonolympia" class="pantheon-olympia"><img src="../img/pantheon-olympia.svg"></button>
     <button id="pantheontheb" class="pantheon-thebes"><img src="../img/pantheon-thebes.svg"></button>
@@ -26,18 +25,18 @@
 
   
 <div class="starspace">
-    <img src="../img/star1.svg" class="star1white" width="15%" height="auto"/>
-    <img src="../img/star2.svg" class="star2white" width="15%" height="auto"/>
-    <img src="../img/star3.svg" class="star3white" width="15%" height="auto"/>
-    <img src="../img/star4.svg" class="star4white" width="15%" height="auto"/>
-    <img src="../img/star5.svg" class="star5white" width="15%" height="auto"/>
-    <img src="../img/star6.svg" class="star6white" width="15%" height="auto"/>
-    <img src="../img/star-yellow1.svg" class="star1yellow" width="15%" height="auto"/>
-    <img src="../img/star-yellow2.svg" class="star2yellow" width="15%" height="auto"/>
-    <img src="../img/star-yellow3.svg" class="star3yellow" width="15%" height="auto"/>
-    <img src="../img/star-yellow4.svg" class="star4yellow" width="15%" height="auto"/>
-    <img src="../img/star-yellow5.svg" class="star5yellow" width="15%" height="auto"/>
-    <img src="../img/star-yellow6.svg" class="star6yellow" width="15%" height="auto"/>
+    <img src="../img/star1.svg" class="star1white" width="100%" height="auto"/>
+    <img src="../img/star2.svg" class="star2white" width="100%" height="auto"/>
+    <img src="../img/star3.svg" class="star3white" width="100%" height="auto"/>
+    <img src="../img/star4.svg" class="star4white" width="100%" height="auto"/>
+    <img src="../img/star5.svg" class="star5white" width="100%" height="auto"/>
+    <img src="../img/star6.svg" class="star6white" width="100%" height="auto"/>
+    <img src="../img/star-yellow1.svg" class="star1yellow" width="100%" height="auto"/>
+    <img src="../img/star-yellow2.svg" class="star2yellow" width="100%" height="auto"/>
+    <img src="../img/star-yellow3.svg" class="star3yellow" width="100%" height="auto"/>
+    <img src="../img/star-yellow4.svg" class="star4yellow" width="100%" height="auto"/>
+    <img src="../img/star-yellow5.svg" class="star5yellow" width="100%" height="auto"/>
+    <img src="../img/star-yellow6.svg" class="star6yellow" width="100%" height="auto"/>
 </div>
 <div class="olympia-startext">OLYMPIA</div>
 <div class="thebes-startext">THEBES</div>
@@ -51,7 +50,7 @@
 <div id="modalrul" class="modalrules">
   <div class="modal-content-rules"> 
       <div class="modal-header-rules">
-        <span class="closerul"><img src="../img/close-window-48.png" width="5%" height="auto"></span></div>
+        <span class="closerul"><img src="../img/close-window-48.png" width="100%" height="auto"></span></div>
       <div class="modal-body-rules">
         <h2 style="color:white; font-family: Ubuntu; font-weight: bold"
           color: white;>RULES</h2>
@@ -60,8 +59,8 @@
       <div class="container-pantheon">
           <img src="../img/pantheon-olympia.svg" class= "city-icon" width="15%" height="auto"></div> 
       <div class="container-star">
-          <img src="../img/star-yellow.svg" class="star-yellow" width="70%" height="auto"/>
-          <button class="startrul"><img src="../img/START.png" width="170%" height="auto"></button></div>
+          <img src="../img/star-yellow.svg" class="star-yellow" width="1250%" height="auto"/></div>
+          <button class="startrul"><img src="../img/START.png" width="25%" height="auto"></button>
     </div>
   </div> 
  </div>
@@ -70,170 +69,147 @@
 <div id="modalolymp" class="modalolympia">
   <div class="modal-content-olympia"> 
     <div class="modal-header-olympia">
-     <span class="closeolymp"><img src="../img/close-window-48.png" width="45%" height="auto"></span>
-      <video class="center" id="videoOlympia" width="300" height="162" controls >
-        <source src="../video/olympiavideo.mp4" type="video/mp4" /></video></div>
-       <div class="modal-body-olympia">
-        <p style="font-size:14px; color:black; font-weight: bold;">Olympism: then and now</p><p style="font-size:13px;margin-top:-10px">Olympic Games are now a global phenomenon <br/>and the Olympic spirit is more alive than ever.<br/> 
-       Playing, watching and living with sports and arts is what makes us human. <br/> Never forget it.</p>
-       <div class="box-olympia">
-        <img src="../img/palaestra_olympia.jpeg" class= "palaestra-olympia" width="95%" height="130px">
-        <p style="font-size:13px;color:black">The Palaestra at Olympia</p></div> 
-</div>                     
-</div>
-</div>
+        <span class="closeolymp"><img src="../img/close-window-48.png" width="5%" height="auto"></span>
+         <video class="center" id="videoOlympia" controls src="../video/olympiavideo.mp4"type="video/mp4"></video></div>
+          <div class="modal-body-olympia">
+           <p style="font-size:0.750em; color:black; font-weight: bold;">Olympism: then and now</p><p style="font-size:0.6525em;margin-top:-2%">Olympic Games are now a global phenomenon <br/>and the Olympic spirit is more alive than ever.<br/> 
+          Playing, watching and living with sports <br/> and arts is what makes us human. <br/> Never forget it.</p>  </div>  
+          <div class="box-olympia">
+           <img src="../img/palaestra_olympia.jpeg" class= "palaestra-olympia" width="75%" height="auto">
+           <p id="palaestra" style="font-size:0.8125em; color:black">The Palaestra at Olympia</p></div> 
+   </div>    
+  </div>
 
 <!-- Modal Thebes -->
 <div id="modaltheb" class="modalthebes">
   <div class="modal-content-thebes"> 
     <div class="modal-header-thebes">
-      <img src="../img/thebes-finds.jpeg" class= "thebes-finds" width="75%" height="175.5px">
-      <p style="font-size:12px;padding-bottom: 15px;">Archaeological finds from Thebes - Boeotia</p></div> 
+      <img src="../img/thebes-finds.jpeg" class= "thebes-finds" width="75%" height="auto"></div>
+      <p id="finds-thebes" style="font-size:0.65em;padding-bottom: 0.9375em;">Archaeological finds from Thebes - Boeotia</p> 
        <div class="modal-body-thebes">
-       <p style="font-size:15px; color:black; font-weight: bold;">THEBES: THE JOY OF EFFORT</p><p style="font-weight: normal; font-size: 11.5px; margin-left: 0.2em; margin-top:-7px">Thebes was the third political force of Ancient Greece <br/> and shows us the satisfaction of hard work.<br/>
-       Continuous training and focusing on our goals is <br/>what makes it possible to achieve our objectives.<br/><span style="margin-left: 1em;">As you can see in this video, continuous training is essential.<br/> Please, use this idea in your daily life.</span></p>
+       <p style="font-size:0.750em; color:black; font-weight: bold;">THEBES: THE JOY OF EFFORT</p><p style="font-weight: normal; font-size:0.6em; margin-left: 0.2em; margin-top:-5%">Thebes was the third political force of Ancient Greece <br/> and shows us the satisfaction of hard work.<br/>
+       Continuous training and focusing on our goals is <br/>what makes it possible to achieve our objectives.<br/><span style="margin-left: 1em;">As you can see in this video, continuous training is essential.<br/> Please, use this idea in your daily life.</span></p></div>     
        <div class="container-gym">
-          <img src="../img/gymnastics_not_watermark.jpg" class= "gymnastics" width="75%" height="108px">
-          <p style="color:black;padding-left: 2em;margin-bottom: 20px;padding-top: 105px;">Students at the Ollerup Gymnastics School</p>
-          <p style="color:black;font-weight: bold; margin-left: 3em; ">PLAY</p></div>
+          <img src="../img/gymnastics_not_watermark.jpg" class= "gymnastics" width="75%" height="auto"></div>
+          <p id="gymnasium" style="font-size:0.65em;padding-bottom: 0.9375em;">Students at the Ollerup Gymnastics School</p> 
         <div class="container-play">
          <button class="playtheb"><img src="../img/play-game-btn.png" width="40%" height="auto"></button>
-         </div>
-</div>                     
+         <p id="play-thebes"style="color:black;font-weight: bold; margin-left: 3em; ">PLAY</p></div>
+                
 </div>
 </div>
-
 
 <div id="modalrun" class="modalrunner">
   <div class="modal-content-runner"> 
     <div class="modal-header-runner">
-      <span class="closerun"><img src="../img/close-window-48.png" width="120%" height="auto"></span>
-      <p style="font-size: 14px; color:blue">Reach your best goal hitting the spacebar to jump the obstacles</p></div> 
+      <span class="closerun"><img src="../img/close-window-48.png" width="3.5%" height="auto"></span></div> 
+      <p style="font-size: 1.125em;margin-left: 2%;text-align: center;color:blue">Reach your best goal hitting the spacebar to jump the obstacles</p>
     <div class="modal-body-runner">
-      <iframe src="../html/runnergame.html" style="padding-bottom:60px;width:720px;height:500px; overflow:hidden;border:0;"></iframe></div> 
+      <iframe class="runnergame"src="../html/runnergame.html"></iframe></div> 
     <div class="container-preview">
-      <button class="backrun"><img src="../img/back_icon.svg" width="15%" height="auto"></button></div>
+      <button class="backrun"><img src="../img/back_icon.svg" width="3.5%" height="auto"></button></div>
   
   </div>                     
   </div>
-
-
 
 <!-- Modal Miletus -->
 <div id="modalmilet1" class="modalmiletus1">
   <div class="modal-content-miletus1"> 
-            <div class="modal-header-miletus1" style="position: relative;"> 
-              <img src="../img/logo_esgrima.png" class= "fence" width="95%" height="auto">
-              <p style="padding-bottom: 10px;">Fencing statue at the Athens 1896 Olympic Games</p></div> 
-              <div class="modal-body-miletus1">
-               <p style="font-size:14.5px; color:black; font-weight: bold;margin-left: 2em;">MILETUS: RESPECT TO THE OTHERS</p><p style="font-size:10.5px;margin-top:-10px;margin-left: 1em;"> Just as in the city of Miletus in Asia Minor, <br/>nowadays the Earth is occupied by different cultures. <br/> For this reason, respect is the guiding value <br/> that allows us to live together in peace <br/>  as well as to compete. <br/> In Olympic Games, the sport of fencing embodies this value.</p>
-               <div class="container-miletus">
-                  <img src="../img/imagen_teatro_Mileto.jpeg" class= "theatre-miletus" width="70%" height="120px">
-                  <p style="color:black; margin-left: 2em;margin-top: 150px;">Theatre from the Miletus archaeological site</p>
-                  </div>
-              <div class="container-nextmiletus">
-                <button class="nextmiletus"><img src="../img/NEXT.png" width="23%" height="auto"></button></div>
-  
-  </div>                     
-  </div>
-  </div>
+    <div class="modal-header-miletus1"> 
+      <img src="../img/logo_esgrima.png" class= "fence" width="75%" height="auto"></div>
+      <p id="fencing" style="font-size:0.65em;padding-bottom: 0.9375em;">Fencing statue at the Athens 1896 Olympic Games</p> 
+      <div class="modal-body-miletus1">
+       <p style="font-size:0.750em; color:black; font-weight: bold;">MILETUS: RESPECT TO THE OTHERS</p><p style="font-weight: normal; font-size:0.6em; margin-left: 0.2em;"> Just as in the city of Miletus in Asia Minor, <br/>nowadays the Earth is occupied by different cultures. <br/> For this reason, respect is the guiding value <br/> that allows us to live together in peace <br/>  as well as to compete. <br/> In Olympic Games, the sport of fencing embodies this value.</p></div>     
+       <div class="container-miletus">
+          <img src="../img/imagen_teatro_Mileto.jpeg" class= "theatre-miletus" width="75%" height="auto"></div>
+          <p id="theatremiletus" style="font-size:0.65em;padding-bottom: 0.9375em;">Theatre from the Miletus archaeological site</p> 
+          <div class="container-nextmiletus">
+         <button class="nextmiletus"><img src="../img/NEXT.png" width="40%" height="auto"></button></div>
+        
+                
+</div>
+</div>
 
-  <div id="modalmilet2" class="modalmiletus2">
-    <div class="modal-content-miletus2"> 
-           <div class="modal-header-miletus2"id="modalheadermiletus2"></div>
-            <div class="container-miletus2">
-              <video id="OpeningCeremony" title="Opening Ceremony" width="250px" height="200px" class="center" controls>
-                <source src="../video/OlympicGamesBerlin.mp4" type="video/mp4"></video>
-              <p>Opening Ceremony at the Berlin 1936 Summer Olympic Games</p><br/></div>
-                <div class="modal-body-miletus2">
-                 <p style="font-size:13.5px; color:black; font-weight: bold;padding-top: 35px;">MILETUS: RESPECT TO THE OTHERS</p><p style="font-size:13px"> In the 20th century, respect was not <br/> always a value that was upheld. <br/>But after the First World War,in 1936, <br/>there was an extraordinary example<br/> that played a part in changing that: <br/>Jesse Owens, a black man, won four gold medals <br/>at the Olympic Games in Nazi Germany, <br/>defying the racist regime. <br/><br/>Please, do not judge people by <br/> the colour of their skin <br/> respect and help each other. </p><br/><br/>
-                <div class="container-playmiletus">
-                  <button class="playmiletus"><img src="../img/play-game-btn.png" width="40%" height="auto"></button>
-                  <button class="backmiletus"><img src="../img/back_icon.svg" width="15%" height="auto"></button></div>
-    
-    </div>                     
-    </div>
-    </div>
+<div id="modalmilet2" class="modalmiletus2">
+  <div class="modal-content-miletus2"> 
+         <div class="modal-header-miletus2">
+           <video id="OpeningCeremony" class="center2" controls src="../video/OlympicGamesBerlin.mp4" type="video/mp4"></video></div>
+           <p id="openceremony" style="font-size:0.57em;padding-bottom: 0.9375em;">Opening Ceremony at the Berlin 1936 Summer Olympic Games</p><br/></div>
+              <div class="modal-body-miletus2">
+               <p style="font-size:0.8750em; color:black; font-weight: bold;padding-top: 11%;">MILETUS: RESPECT TO THE OTHERS</p><p style="font-size:0.8125em; margin-top: -4%;"> In the 20th century, respect was not <br/> always a value that was upheld. <br/>But after the First World War,in 1936, <br/>there was an extraordinary example<br/> that played a part in changing that: <br/>Jesse Owens, a black man, won four gold medals <br/>at the Olympic Games in Nazi Germany, <br/>defying the racist regime. <br/><br/>Please, do not judge people by <br/> the colour of their skin <br/> respect and help each other. </p><br/><br/></div>
+              <div class="container-playmiletus">
+                <button class="playmiletus"><img src="../img/play-game-btn.png" width="40%" height="auto"></button>
+                <button class="backmiletus"><img src="../img/back_icon.svg" width="40%" height="auto"></button></div>                      
+  </div>
+  </div>
 
   <div id="modalmemorycard" class="modal-memorycard">
-      <div class="modal-content-memorycard"> 
-      <div class="modal-header-memorycard">
-      <span class="closememorycard"><img src="../img/close-window-48.png" width="120%" height="auto"></span>
-      <p style="font-size:16px; color:blue;margin-top:7px;margin-bottom:-10px">Which quote was told by these sportmen or sportwomen?<br/><span style="font-weight: normal; font-family: Ubuntu; font-size: 14px;margin-left: 2.5em;">> Match all the cards and then continue to Corinth</span</p></div> 
-      <div class="modal-body-memorycard">
-      <iframe src="../html/memorycardgame.html" style="padding-left:190px; width:650px;height:650px;overflow: hidden;border:0;"></iframe>
-      <div class="container-memorycard">
-      <button class="backmemorycard"><img src="../img/back_icon.svg" width="15%" height="auto"></button></div>
-      
-      </div>                     
-      </div>
-      </div>
+    <div class="modal-content-memorycard"> 
+    <div class="modal-header-memorycard">
+    <span class="closememorycard"><img src="../img/close-window-48.png" width="3.5%" height="auto"></span></div>
+    <p style="font-size: 1em;margin-left: 2%;text-align: center;color:blue;"> Match all the cards and then continue to Corinth</span</p> 
+    <div class="modal-body-memorycard">
+    <iframe class="memorycardgame"src="../html/memorycardgame.html"></iframe></div>
+    <div class="container-memorycard">
+    <button class="backmemorycard"><img src="../img/back_icon.svg" width="3.5%" height="auto"></button></div>            
+    </div>
+    </div>
 
 
 <!-- Modal Corinth -->
 <div id="modalcorinth" class="modal-corinth">
   <div class="modal-content-corinth"> 
   <div class="modal-header-corinth">
-    <img src="../img/imagen_corintocanal.jpeg" class= "corinth-canal" width="83%" height="170.5px">
-    <p style="margin-bottom:20px;">View of the Corinth Canal (Corinthia)</p></div> 
+    <img src="../img/imagen_corintocanal.jpeg" class= "corinth-canal" width="75%" height="auto"></div> 
+    <p id="corinthcanal" style="font-size:0.6525em;margin-bottom:10%;">View of the Corinth Canal (Corinthia)</p>
   <div class="modal-body-corinth">
-    <p style="font-size:14px; color:black; font-weight: bold;margin-bottom:-1px;">CORINTH: FAIR PLAY</p><p style="font-size:11.5px; margin-left: 1em;"> Although, there are people who want to go faster then cheat in sports,<br/> this practice is not true to the Olympic spirit. <br/>
-    When you cheat, you do not show how good you are.<br/> Instead,  it shows you are not confident about yourself. <br/><br/> As the example of the city of Corinth shows, <br/> please, do not cheat yourself and the others, <br/> make an effort and practise. <br/> This is how you become your best self.</p>
-    <p style="color:black; padding-top: 60px;">Fair play in athletics</p>
-  <div class="container-corinth">
-    <video id="videoCorinth" title="Fair Play Athletics" width="200px" height="110px" controls>
-      <source src="../video/fairplaycorinth.mp4" type="video/mp4"></video></div>
+    <p style="font-size:0.750em; color:black; font-weight: bold;margin-bottom:-1%;">CORINTH: FAIR PLAY</p><p style="font-size:0.6525em; margin-left: 1em;"> Although, there are people who want <br/> to go faster then cheat in sports,<br/> this practice is not true to the Olympic spirit. <br/>
+    When you cheat, you do not show how good you are.<br/> Instead,  it shows you are not confident about yourself. <br/><br/> As the example of the city of Corinth shows, <br/> please, do not cheat yourself and the others, <br/> make an effort and practise. <br/> This is how you become your best self.</p></div>
+    <video id="videoCorinth" class="center3" controls src="../video/fairplaycorinth.mp4" type="video/mp4"></video>
+    <p id="fairplay" style="color:black; font-size:0.6525em; padding-top: 6%;">Fair play in athletics</p>
     <div class="container-playcorinth">
-    <button class="playcorinth"><img src="../img/play-game-btn.png" width="35%" height="auto"></button>
-    <p style="font-size:13px;color:black;font-weight: bold; margin-left: 3em; padding-top: 12px;">PLAY</p></div>
+      <button class="playcorinth"><img src="../img/play-game-btn.png" width="40%" height="auto"></button>
+      <p id="play-corinth"style="font-size:0.6525em; color:black;font-weight: bold; margin-left: 3em; ">PLAY</p></div>                
+  </div>
+  </div>
   
-  </div>                     
-  </div>
-  </div>
-
   <div id="modalpuzzle" class="modal-puzzle">
     <div class="modal-content-puzzle"> 
       <div class="modal-header-puzzle">
-       <span class="closepuzzle"><img src="../img/close-window-48.png" width="50%" height="auto"></span>
-        <p style="font-size:15px; color:blue;margin-left: 2em;">Move the pieces, solve this jigsaw puzzle and win a yellow star</p></div> 
-      <div class="modal-body-puzzle">
-        <iframe src="../html/puzzle.html"style="position:relative; top: -15px; left: 0px; width:650px;height:650px;overflow: hidden;border:0;"></iframe>
+        <p style="font-size:1em; color:blue;margin-left: 2em;">Move the pieces, solve this jigsaw puzzle and win a yellow star</p></div>
+        <span class="closepuzzle"><img src="../img/close-window-48.png" width="3.5%" height="auto"></span> 
+        <div class="modal-body-puzzle">
+        <iframe class="puzle" src="../html/puzzle.html"></iframe></div>  
       <div class="container-puzzle">
-      <button class="backpuzzle"><img src="../img/back_icon.svg" width="15%" height="auto"></button></div>
-
-</div>                     
-</div>
-</div>
+      <button class="backpuzzle"><img src="../img/back_icon.svg" width="3.5%" height="auto"></button></div>              
+  </div>
+  </div>
 
 <!-- Modal Sparta -->
 <div id="modalsparta" class="modal-sparta">
   <div class="modal-content-sparta"> 
     <div class="modal-header-sparta">
-      <img src="../img/imagen_leonidassparta.jpeg" class= "leonidas" width="40%" height="auto"> 
-      <p style="font-size: 12px; padding-top:200px; margin-left: 1em;">Leonidas statue at the Acropolis of Sparta</p></div>    
+      <img src="../img/imagen_leonidassparta.jpeg" class= "leonidas" width="75%" height="auto"></div>
+      <p id="leonidas-sparta" style="font-size:0.6525em;margin-bottom:10%;">Leonidas statue at the Acropolis of Sparta</p>    
       <div class="modal-body-sparta">
-       <p style="font-size:12.5px; color:black; font-weight: bold;">SPARTA: THE PURSUIT OF EXCELLENCE</p><p style="margin-top: -15px;"> The Spartans were really well-prepared for battle,<br/> showing that continuous training was important <br/>to achieve their best.<br/> Pursuing  excellence means making an effort <br/>not only with yourself but also with <br/> all the people around you like family and friends.<br/> Remember, as athletes do for their countries,<br/> the support from your people and <br/> a belief in a common goal will make you go far.<br/>
-      </p><p style="color:black;padding-top:100px; margin-left: 2em;">Allan Wells, a medallist training</p>
-       <div class="container-sparta">
-        <video id="videoAllanSparta" width="200px" height="110px" controls>
-          <source src="../video/allan.mp4"></video></div>  
-            <div class="container-playsparta">
-              <button class="playsparta"><img src="../img/play-game-btn.png" width="35%" height="auto"></button>
-              <p style="font-size:13px;color:black;font-weight: bold;margin-top:-12px; margin-left: 2em;">PLAY</p></div>
-</div>                     
+       <p style="font-size:0.750em; color:black; font-weight: bold;margin-bottom:-1%;">SPARTA: THE PURSUIT OF EXCELLENCE</p><p style="font-size:0.6525em;margin-top: 4%;"> The Spartans were really well-prepared for battle,<br/> showing that continuous training was important <br/>to achieve their best.<br/> Pursuing  excellence means making an effort <br/>not only with yourself but also with <br/> all the people around you like family and friends.<br/> Remember, as athletes do for their countries,<br/> the support from your people and <br/> a belief in a common goal will make you go far.<br/></p></div>
+        <video id="videoAllanSparta" class="center4" controls src="../video/allan.mp4"></video>
+        <p id="allanwells" style="font-size:0.6525em; color:black;padding-top:10%; margin-left: 2em;">Allan Wells, a medallist training</p>
+          <div class="container-playsparta">
+              <button class="playsparta"><img src="../img/play-game-btn.png" width="40%" height="auto"></button>
+              <p id="play-sparta"style="font-size:0.6525em; color:black;font-weight: bold; margin-left: 3em; ">PLAY</p></div>                 
 </div>
 </div>
 
 <div id="modalquiz" class="modal-quiz">
   <div class="modal-content-quiz"> 
     <div class="modal-header-quiz">
-      <p style="font-size:18px; color:blue">Choose the correct answer</p></div> 
+      <span class="closequiz"><img src="../img/close-window-48.png" width="3.5%" height="auto"></span></div>
+      <p style="font-size: 1em;margin-left: 2%;text-align: center;color:blue;">Choose the correct answer</p>
     <div class="modal-body-quiz">
-      <iframe src="../html/quiz.html" style="padding-left:180px; width:650px;height:650px;overflow: hidden;border:0;"></iframe>
+      <iframe class="quiz" src="../html/quiz.html"></iframe></div>
     <div class="container-quiz">
-        <button class="backquiz"><img src="../img/back_icon.svg" width="20%" height="auto"></button>
-        <button class="closequiz"><img src="../img/close-window-48.png" width="50%" height="auto"></button></div>
-</div>                     
+        <button class="backquiz"><img src="../img/back_icon.svg" width="3.5%" height="auto"></button></div>                
 </div>
 </div>
 
@@ -242,37 +218,36 @@
 <div id="modalathens" class="modal-athens">
   <div class="modal-content-athens"> 
   <div class="modal-header-athens">
-      <img src="../img/DIM1.062.JPG" class= "statue_disco" width="30%" height="auto">
-      <p style="font-size:12px; margin-bottom: 25px;">The Discobol. Kostas Dimitriadis. <br/> Paris 1924 Olympic Art Competition</p></div> 
+      <img src="../img/DIM1.062.JPG" class= "statue-disco" width="75%" height="auto"></div> 
+      <p id="discobol" style="font-size:0.65em;padding-bottom: 0.9375em;">The Discobol. Kostas Dimitriadis. <br/> Paris 1924 Olympic Art Competition</p>
   <div class="modal-body-athens">
-      <p style="font-size:12px; color:black; font-weight: bold;margin-left: 1em;">ATHENS: BALANCE BETWEEN BODY, WILL AND MIND</p><p style="font-size:8.5px; margin-top: -15px;padding-top:-10px"> Competing with others is hard work for your muscles and your mind. <br/>Maintaining a healthy balance between body and mind is essential for going far.<br/>
+    <p style="font-size:0.65em; color:black; font-weight: bold;">ATHENS: BALANCE BETWEEN BODY, WILL AND MIND</p><p style="font-weight: normal; font-size:0.48em; margin-left: 0.2em;"> Competing with others is hard work for your muscles and your mind. <br/>Maintaining a healthy balance between body and mind is essential for going far.<br/>
       In Ancient Greece, Muses were protectors of Arts. <br/>For this reason, artistic disciplines <br/>were included in Ancient Olympic Games to honour these goddesses. <br/><span style="margin-left: 1em;">Singing with a harp, playing the flute and reciting a text were serious competitions. <br/>Later, from 1912 to 1952, in Modern Olympic Games,<br/> sports disciplines were combined with artistic disciplines.    
-      <br/> Do not stop practising an artistic discipline, <br/>because it helps to maintain a proper balance in your life.</p>
+      <br/> Do not stop practising an artistic discipline, <br/>because it helps to maintain a proper balance in your life.</p></div> 
   <div class="container-athens">
-      <img src="../img/2064945_https___www_searchculture_gr_aggregator_edm_ASCSA_000065__3A51426.jpeg" class= "epidaurus-theatre" width="60%" height="110px">
-      <p style="color:black;margin-top:5px;margin-left: 2em;">Theatre play at Epidaurus theatre</span></p></div>
+      <img src="../img/2064945_https___www_searchculture_gr_aggregator_edm_ASCSA_000065__3A51426.jpeg" class= "epidaurus-theatre" width="75%" height="auto"></div>
+      <p id="epidaurustheatre" style="font-size:0.65em;padding-bottom: 0.9375em;">Theatre play at Epidaurus theatre</p>
   <div class="container-playathens">
-      <button class="playathens"><img src="../img/play-game-btn.png" width="35%" height="auto"></button>
-      <p style="font-size:13px;color:black;font-weight: bold;margin-top:155px; margin-left: 4em;">PLAY</p></div></div>
-  </div>                     
+    <button class="playathens"><img src="../img/play-game-btn.png" width="40%" height="auto"></button>
+    <p id="play-athens"style="color:black;font-weight: bold; margin-left: 3em; ">PLAY</p></div>
+                    
   </div>
   </div>
   
   <div id="modaltheatre" class="modal-theatre">
     <div class="modal-content-theatre"> 
       <div class="modal-header-theatre">
-        <p style="font-size:18px; color:blue">Drop the parts of the theatre on the correct place</p></div> 
-      <div class="modal-body-theatre">
-        <iframe src="../html/draganddrop.html" style="padding-left:100px; padding-top: 8px; width:850px;height:750px; overflow:hidden;border:0;"></iframe>
+        <p style="font-size:1.125em; color:blue">Drop the parts of the theatre on the correct place</p></div>
+        <span class="closetheatre"><img src="../img/close-window-48.png" width="3.5%" height="auto"></span>
+        <div class="modal-body-theatre">
+        <iframe class="draganddrop" src="../html/draganddrop.html"></iframe></div>
       <div class="container-theatre">
-        <button class="backtheatre"><img src="../img/back_icon.svg" width="20%" height="auto"></button>
-        <button class="closetheatre"><img src="../img/close-window-48.png" width="50%" height="auto"></button> </div>
-  </div>                     
+        <button class="backtheatre"><img src="../img/back_icon.svg" width="3.5%" height="auto"></button></div>
+                          
   </div>
   </div>
 
-  <div class="container-continuefinal">
-    <button class="continuefinal"><img src="../img/CONTINUE.png" width="25%" height="auto"></button></div>
+    <button class="continuefinal"><img src="../img/CONTINUE.png" width="3.5%" height="auto"></button>
     <script src="../js/map.js"></script>
 
   </div>    

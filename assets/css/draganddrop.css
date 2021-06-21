@@ -2,34 +2,34 @@
         background-image: url(../img/teatro-juego.svg);
         background-repeat: no-repeat;   
         position:relative;
-        left: -120px;
-        top:30px;
+        left: -18%;
+        top:7em;
         display: flex;
         justify-content: space-between;
-        width: 650px;
-        height: 300px;
+        width: 72%;
+        height: 100em;
         margin: 0 auto;
     }
     
     .startpointone {
         position: relative;
-        top:80px;
-        left:417.5px;
-        height: 50px;
-        width: 400px;
-        border: solid 2px #000000;
+        top:4%;
+        left: 110%;
+        height: 2%;
+        width: 100%;
+        border: solid 1% #000000;
         justify-content: center;
         align-items: center;
     }
 
     .emptyone {
         position: relative;
-        top:-40px;
-        left: 102px;
-        height: 50px;
-        width: 400px;
-        margin: 10px;
-        border: 3px solid  salmon; 
+        top:-1.5%;
+        left: 34%;
+        height: 2%;
+        width: 100%;
+        margin: 2%;
+        border: 0.03em solid  salmon; 
         background: white;
         display: flex;
         justify-content: center;
@@ -56,29 +56,28 @@
     }
 
     .drag_enterone {
-        border: 5px dashed #112244;
+        border: 1% dashed #112244;
     }
 
     .startpointtwo {
         position: relative;
-        top:0px;
-        left:250px;
-        height: 50px;
-        width: 400px;
-        border: 2px solid #000000;
-        display: flex;
+        top:4%;
+        left: 67%;
+        height: 2%;
+        width: 100%;
+        border: solid 1% #000000;
         justify-content: center;
         align-items: center;
     }
 
     .emptytwo {
         position: relative;
-        top:225px;
-        left: 20px;
-        height: 50px;
-        width: 400px;
-        margin: 10px;
-        border: solid 3px salmon;
+        top:13%;
+        left: 32%;
+        height: 2%;
+        width: 100%;
+        margin: 2%;
+        border: 0.03em solid  salmon;  
         background: white;
         display: flex;
         justify-content: center;
@@ -105,26 +104,26 @@
     }
 
     .drag_entertwo {
-        border: 5px dashed #112244;
+        border: 1% dashed #112244;
     }
     .startpointthree {
         position: relative;
-        top:160px;
-        left:83px;
-        height: 50px;
-        width: 400px;
-        border: 2px solid #000000;
-        display: flex;
+        top:8%;
+        left: 42%;
+        height: 2%;
+        width: 100%;
+        border: solid 1% #000000;
         justify-content: center;
         align-items: center;
     }
     .emptythree {
         position: relative;
-        top:230px;
-        left: -320px;
-        height: 50px;
-        width: 400px;
-        border: solid 3px salmon;
+        top:12.5%;
+        left: -38%;
+        height: 2%;
+        width: 100%;
+        margin: 2%;
+        border: 0.03em solid  salmon;  
         background: white;
         display: flex;
         justify-content: center;
@@ -151,27 +150,26 @@
     }
 
     .drag_enterthree {
-        border: 5px dashed #112244;
+        border: 1% dashed #112244;
     }
     .startpointfour {
         position: relative;
-        top:240px;
-        left:-64px;
-        height: 50px;
-        width: 400px;
-        border: 2px solid #000000;
-        display: flex;
+        top:8%;
+        left: 35%;
+        height: 2%;
+        width: 100%;
+        border: solid 1% #000000;
         justify-content: center;
         align-items: center;
     }
     .emptyfour {
         position: relative;
-        top:250px;
-        left: -385px;
-        height: 50px;
-        width: 400px;
-        margin: 10px;
-        border: solid 3px salmon;
+        top:14.5%;
+        left: -40%;
+        height: 2%;
+        width: 100%;
+        margin: 2%;
+        border: 0.03em solid  salmon; 
         background: white;
         display: flex;
         justify-content: center;
@@ -198,48 +196,48 @@
     }
 
     .drag_enterfour {
-        border: 5px dashed #112244;
+        border: 1% dashed #112244;
     }
     .modal {
         display: none; 
         position: fixed; 
         z-index: 1; 
-        padding-top: 100px; 
-        left: -50px;
-        top: -40px;
-        width: 540px; 
-        height: 500px;
+        padding-top: 10%; 
+        left: -5%;
+        top: -4%;
+        width: 54%; 
+        height: 50%;
         overflow: hidden; 
       }
       .modal-content {
         background-image: url("../img/bakground-games.png");
         margin: auto;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 80%;
+        padding: 2%;
+        border: 1% solid #888;
+        width: 8%;
       }
 
       #close {
         background-color: orange;
         color: black;
         position: relative;
-        width: 60px;
-        height: 25px;
-        left:140px;
-        top:10px;
-        font-size: 9px;
+        width: 6%;
+        height: 4%;
+        left:14%;
+        top:1%;
+        font-size: 0.375em;
         font-weight: bold;
         cursor: pointer;
       }
       #myBtn{
         background-color: orange;
         position: relative;
-        width: 60px;
-        height: 25px;
-        left:140px;
-        top:6px;
+        width: 7%;
+        height: 4%;
+        left:14%;
+        top:2%;
         color:black;
-        font-size: 9px;
+        font-size: 0.375em;
         font-weight: bold;
         cursor: pointer;
       }
