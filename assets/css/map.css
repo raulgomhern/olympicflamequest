@@ -395,7 +395,6 @@ width: 15%;
     font-weight:regular;
     left:15%;
     top:43%;
-     
   }
   #palaestra{
     font-weight: normal;
@@ -989,8 +988,8 @@ width: 15%;
   text-align: center;
   margin-right: 11%;
   margin-top:92%;
-
 }
+
 .playsparta {
   position: absolute;
   padding-top: 13%;
@@ -1215,4 +1214,498 @@ position: relative;
   left: 20%;
   top: 50%;
   width: 150%;
+}
+
+@media only screen and (min-width: 1024px) and (orientation: landscape){
+  .modalrules{
+    left: 30%;
+  }
+  .pantheon-olympia{
+    left: 40%;
+  }
+  .modal-body-olympia {
+    font-size: 1.27em;
+    top:45%;
+  }
+  .box-olympia {
+    top: 60%;
+    width: 75%;;
+  }
+  .pantheon-thebes{
+    left: 47.5%;
+    top: 54.5%;
+  }
+  .modal-body-thebes {
+    font-size: 1.29em;
+    top:44%;
+  }
+  .playtheb{
+    top:89.5%;
+  }
+  #play-thebes{
+    margin-top: -2.5%;
+  }
+  .runnergame{
+    left: 17%;
+  }
+  .pantheon-miletus {
+    left: 71.6%;
+  }
+  .modal-body-miletus1 {
+    font-size: 1.27em;
+    top:45%;
+    left:-2%;
+  }
+  .modal-body-miletus2 {
+    font-size: 1.27em;
+    top:45%;
+    left:4%;
+  }
+  .memorycardgame{
+    top: 1%;
+  }
+  .pantheon-corinth {
+    left: 45.5%;
+  }
+  .modal-corinth{
+    height: 87%;
+  }
+  .modal-body-corinth {
+    font-size: 1.27em;
+    top:40%;
+    left:-4%;
+  }
+  #fairplay{
+    margin-top: 93%;
+  }
+  .playcorinth{
+    width: 20%;
+  }
+  .modal-sparta{
+    height: 88%;
+  }
+  .modal-body-sparta {
+    font-size: 1.27em;
+    top:40%;
+    left:-4%;
+  }
+  #allanwells{
+    margin-top: 93.2%;
+  }
+  .playsparta{
+    width: 20%;
+  }
+  .modal-body-athens {
+    font-size: 1.15em;
+    top:48%;
+    left:-1%;
+  }
+  .epidaurus-theatre{
+    top: 66%;
+  }
+  #epidaurustheatre{
+    margin-top:89%;
+  }
+  .modal-body-theatre{
+    width: 60%;
+    left: 25%;
+    margin-top: 10%;
+  }
+  .draganddrop{
+    width: 210%;
+    left: -40%;
+  }
+} 
+
+@media only screen and (min-width: 1224px) and (orientation: landscape){
+  .olympia-startext {
+    top: 11%;
+    left: 6.4%;
+  }
+  .thebes-startext {
+    top: 11%;
+    left: 9.8%;
+  }
+  .miletus-startext {
+    top: 11%;
+    left: 12.9%;
+  }
+  .corinth-startext {
+    top: 11%;
+    left: 16.4%;
+  }
+  .sparta-startext {
+    top: 11%;
+    left: 19.7%;
+  }
+  .athens-startext {
+    top: 11%;
+    left: 22.7%;
+  }
+  .map{
+    height:88.5%;
+    width:87%;
+  }
+  .modalrules{
+    left: 35%;
+    top: 30%;
+  }
+  .pantheon-olympia{
+    left: 39.8%;
+    top: 62%;
+  }
+  .olympia-text {
+    top: 66%;
+  }
+  .modalolympia {
+    width: 34%; 
+    height: 89%;
+    left: 37%;
+  }
+  .modalthebes {
+    height: 92%;
+  }
+  .pantheon-thebes{
+    left: 47.2%;
+    top: 55.5%;
+  }
+  .thebes-text {
+    top: 59.1%;
+  }
+  .modal-body-thebes {
+    font-size: 1.40em;
+    top:48%;
+    left:11%;
+  }
+  .gymnastics{
+    width: 64%;
+    top: 62%;
+    left: 19%;
+  }
+  #gymnasium{
+    margin-top:80%;
+  }
+  .playtheb{
+    top:93%;
+  }
+  .runnergame{
+    left: 22%;
+  }
+  .miletus-text {
+    left: 65.8%;
+    top: 63.9%;
+  }
+  .pantheon-miletus {
+    left: 73.3%;
+  }
+  .modalmiletus1 {
+    height: 92%;
+    top:-4%;
+  }
+  .modal-body-miletus1 {
+    font-size: 1.3em;
+    top:48%;
+    left:15%;
+  }
+  #theatremiletus{
+    margin-top:80%;
+  }
+
+  .modal-body-miletus2 {
+    font-size: 1.3em;
+    top:51%;
+    left:10%;
+  }
+  .playmiletus {
+    top:91%;
+  }
+  .backmiletus {
+    top:98.5%;
+  }
+  .memorycardgame{
+    top: 1%;
+    left: 4%;
+    width:80%;
+  }
+  .corinth-text {
+    top: 67%;
+    left: 37.7%;
+  }
+  .pantheon-corinth {
+    left: 45.3%;
+    top: 63.5%;
+  }
+  .modal-corinth{
+    height: 90%;
+  }
+  .modal-body-corinth {
+    font-size: 1.3em;
+    top:42.5%;
+    left:14%;
+  }
+  #fairplay{
+    margin-top: 77.5%;
+  }
+  .puzle{
+    width: 88%;
+    top: -2%;
+    left: 20%;
+  }
+  .sparta-text {
+    top: 75%;
+    left: 36.8%;
+  }
+  .modal-sparta{
+    height: 90%
+  }
+  .modal-body-sparta {
+    font-size: 1.3em;
+    top:42%;
+    left:12%;
+  }
+  #allanwells{
+    margin-top: 77%;
+  }
+  .center4{
+    top: 70%;
+  }
+  .playsparta{
+    top:90%;
+  }
+  .athens-text {
+    top: 62.8%;
+    left: 43.7%;
+  }
+  .pantheon-athens {
+    top: 59.3%;
+  }
+  .modal-athens {
+    height: 94%;
+    top: -2%;
+  }
+  .modal-body-athens {
+    font-size: 1.3em;
+    top:52%;
+    left:11%;
+  }
+  .epidaurus-theatre{
+    top: 68%;
+  }
+  #epidaurustheatre{
+    margin-top:79%;
+  }
+  .playathens{
+    top:94%;
+  }
+  .modal-body-theatre{
+    width: 45%;
+    left: 25%;
+    margin-top: 10%;
+  }
+  .draganddrop{
+    width: 220%;
+    left: -41%;
+    top: -15%;
+  }
+} 
+
+@media only screen and (min-width: 1600px) and (orientation: landscape){
+  .olympia-startext {
+    top: 11%;
+    left: 6.6%;
+  }
+  .thebes-startext {
+    top: 11%;
+    left: 10%;
+  }
+  .miletus-startext {
+    top: 11%;
+    left: 13.1%;
+  }
+  .corinth-startext {
+    top: 11%;
+    left: 16.6%;
+  }
+  .sparta-startext {
+    top: 11%;
+    left: 19.9%;
+  }
+  .athens-startext {
+    top: 11%;
+    left: 22.9%;
+  }
+  .map{
+    height:90%;
+    width:87%;
+  }
+  .modalrules{
+    left: 39%;
+    top: 35%;
+  }
+  .pantheon-olympia{
+    left: 39.8%;
+    top: 63.5%;
+  }
+  .olympia-text {
+    top: 67.5%;
+    left: 32.5%;
+  }
+  .modal-body-olympia {
+    font-size: 1.70em;
+  }
+  .pantheon-thebes{
+    left: 47.2%;
+    top: 56%;
+  }
+  .thebes-text {
+    top: 60%;
+    left: 39.9%;
+  }
+  .modalthebes {
+    height: 94%;
+    top:-3%;
+  }
+  .modal-body-thebes {
+    font-size: 1.90em;
+    top:50%;
+    left:11%;
+  }
+  .gymnastics{
+    width: 60%;
+    top: 66%;
+    left: 22%;
+  }
+  #gymnasium{
+    margin-top:79%;
+  }
+  .playtheb{
+    top:94%;
+    width: 20%;
+  }
+  .miletus-text {
+    left: 66%;
+    top: 64%;
+  }
+  .modalmiletus1 {
+    height: 94%;
+  }
+  .modal-body-miletus1 {
+    font-size: 1.7em;
+    top:48%;
+    left:15%;
+  }
+  #theatremiletus{
+    margin-top:76%;
+  }
+  .nextmiletus {
+    width: 40%;
+    top:93.5%;
+    left: 31%;
+  }
+  .modalmiletus2 {
+    height: 92%;
+    top: -2%;
+  }
+  .modal-body-miletus2 {
+    font-size: 1.6em;
+    top:53%;
+    left:12%;
+  }
+  .playmiletus {
+    top:92%;
+    width: 20%;
+  }
+  .backmiletus {
+    top:100%;
+    width: 20%;
+  }
+  .memorycardgame{
+    top: 1%;
+    left: 4%;
+    width:80%;
+  }
+  .corinth-text {
+    top: 68.3%;
+    left: 38%;
+  }
+  .pantheon-corinth {
+    left: 45.3%;
+    top: 64%;
+  }
+  .modal-corinth{
+    height: 90%;
+    top:-1%;
+  }
+  .modal-body-corinth {
+    font-size: 1.7em;
+    top:42.5%;
+    left:14%;
+  }
+  #fairplay{
+    margin-top: 70%;
+  }
+  .playcorinth{
+    width: 18%;  
+  }
+  .sparta-text {
+    top: 76.5%;
+    left: 36.9%;
+  }
+  .pantheon-sparta {
+    top: 72.3%;
+  }
+  .modal-sparta{
+    height: 91%;
+  }
+  .modal-body-sparta {
+    font-size: 1.7em;
+    top:44%;
+    left:12%;
+  }
+  #allanwells{
+    margin-top: 73%;
+  }
+  .center4{
+    top: 72%;
+  }
+  .playsparta{
+    width: 15%;
+    top:91.5%;
+    left: 36%;
+  }
+  .athens-text {
+    top: 63.8%;
+    left: 44.3%;
+  }
+  .pantheon-athens {
+    top: 59.8%;
+    left: 51.45%;
+  }
+  .modal-athens {
+    height: 95%;
+    top: -5%;
+  }
+  .modal-body-athens {
+    font-size: 1.7em;
+  }
+  .epidaurus-theatre{
+    top: 68%;
+  }
+  #epidaurustheatre{
+    margin-top:74%;
+  }
+  .playathens{
+    width: 17%;
+    left: 33%;
+  }
+  .modal-body-theatre{
+    width: 45%;
+    left: 25%;
+    margin-top: 10%;
+  }
+  .draganddrop{
+    width: 220%;
+    left: -41%;
+    top: -15%;
+  }
 }
