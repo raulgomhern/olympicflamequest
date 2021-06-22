@@ -13,7 +13,7 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 
 ![Image of The Olympic Flame Quest](assets/img/index_readme.JPG)
 
-[Try the demo version] ()
+[Try the demo version: https://raulgomhern.github.io/olympicflamequest/assets/html/index.html](https://raulgomhern.github.io/olympicflamequest/assets/html/index.html)
 
 ## Technologies used
 
