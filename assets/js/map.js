@@ -155,7 +155,8 @@ btnplayathens.onclick = function() {
   modalathens.style.display="none";
   modaltheatre.style.display = "block";
   star6yellow.style.visibility = "visible";
-}
+  continuefin.style.display = "block";
+  }
 
 btnbacktheatre.onclick = function() {
   modaltheatre.style.display="none";
