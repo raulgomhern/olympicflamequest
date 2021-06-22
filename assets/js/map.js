@@ -51,6 +51,7 @@ var videSparta = document.getElementById("videoAllanSparta");
 
 
 
+
 btnolymp.onclick = function() {
   modalolymp.style.display = "block";
   star1yellow.style.visibility = "visible";
@@ -154,8 +155,8 @@ btnathens.onclick = function() {
 btnplayathens.onclick = function() {
   modalathens.style.display="none";
   modaltheatre.style.display = "block";
+  continuefin.style.visibility = "visible";
   star6yellow.style.visibility = "visible";
-  continuefin.style.display = "block";
   }
 
 btnbacktheatre.onclick = function() {
@@ -164,13 +165,16 @@ btnbacktheatre.onclick = function() {
 }
 closetheatre.onclick = function() {
   modaltheatre.style.display="none";
-  continuefin.style.visibility = "visible";
 }
 continuefin.onclick = function(){
   window.location.href = '../html/final.html';
 }
 function load() {
+  continuefin.style.visibility = "hidden";
   modalrules.style.display = "block";
+  
+ 
+  
 };
 window.onload = load;
 
