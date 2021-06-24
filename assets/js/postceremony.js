@@ -1,3 +1,5 @@
-function startmap() {
-  window.location.replace ("../html/map.html");
+var startmap = document.getElementById("startmapp");
+
+startmap.onclick = function() {
+  window.location.href = '../html/map.html';
 }

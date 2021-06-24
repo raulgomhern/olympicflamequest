@@ -30,7 +30,7 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 - Content taken from: [Europeana Collections](https://europeana.eu)
 - Type of content: Original and reused video, audio and images from several institutions
 - Responsiveness: Screens and tablet in landscape orientation. 
-   - Default device: Tablet 6 inch or similar, min-width: 768px
+   - Default device: Tablet 6 inch or similar, min-width: 800px
    - Ipad, similars & above, min-width: 1024px
    - Laptops, screens 15-19 inch & above, min-width: 1224px
    - Screens, Desktops 19 inch & above, min-width: 1600px

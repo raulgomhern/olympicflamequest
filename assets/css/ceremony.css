@@ -4,11 +4,11 @@ body  {
 
 #text-ceremony {
   position: absolute;
-  top: 34%;
-  left:40.5%;
+  top: 35%;
+  left:42.5%;
   font-family: Ubuntu;
   font-weight: normal;
-  font-size: 0.725em;
+  font-size: 0.675em;
   line-height: 2.125em;
   text-align: center;
   color: black;
@@ -22,7 +22,7 @@ body  {
 
 .ceremonyvideo 
 { position: absolute;
-  top: 39.5%;
+  top: 39%;
   left: 4.5%;
   width: 33%;
   height: 60%;
@@ -30,7 +30,7 @@ body  {
 .tooltip-vol {
       /*image*/
   position: absolute;
-  left: 65%;
+  left: 66.2%;
   top: 25%;
 }
 .tooltip-vol .tooltiptext-vol {

@@ -28,12 +28,13 @@ body  {
   color: white;
 }
  .startmap {
-    position: absolute;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border:none;
-    left: 55%;
-    top: 65%;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  top: 61%;
+  left: 75%;
+  border: transparent;
+  margin-left: -8%;
 }
 .tooltip-vol {
   /*image*/
