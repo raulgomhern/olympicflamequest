@@ -3,7 +3,7 @@ body  {
 }
 #text-scoring {
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: 27%;
     font-family: Ubuntu;
     font-weight: bold;
@@ -17,15 +17,15 @@ body  {
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 65.5%; /* 16:9 Aspect Ratio */
 }
 
 .feedback-form{
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 23%;
   width: 55%;
-  height: 70%;
+  height: 80%;
   border: none;
     
 }
