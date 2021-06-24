@@ -279,7 +279,7 @@ width: 15%;
   display: none;
   position: fixed; 
   left: 24%;
-  top: 23%;
+  top: 19%;
 }
 .modal-content-rules{
   background-image: url(../img/parchment.png);
@@ -329,7 +329,7 @@ width: 15%;
   background-repeat: no-repeat;
   background-color: transparent;
   border:none;
-  left: 22%;
+  left: 25%;
   top: 85%;
 }
 .closerul {
@@ -381,7 +381,7 @@ width: 15%;
   
   .center {   
     position: absolute;
-    top: 125%;
+    top: 100%;
     left: -15%;
     width: 80%;
     height: auto;
@@ -394,7 +394,7 @@ width: 15%;
     font-family: Ubuntu;
     font-weight:regular;
     left:15%;
-    top:43%;
+    top:44%;
   }
   #palaestra{
     font-weight: normal;
@@ -486,14 +486,14 @@ width: 15%;
     margin-bottom: 2em;
     text-align: center;
     margin-left: 2%;
-    margin-top:91%;
+    margin-top:92%;
   }
 
   .playtheb{
     position: absolute;
     padding-top: 12%;
     left: 30%;
-    top:88%;
+    top:90%;
     width: 22%;
     height: auto;
     border: none;
@@ -505,7 +505,7 @@ width: 15%;
     font-family: Ubuntu; 
     margin-bottom: 2em;
     text-align: center;
-    margin-top: -8.5%;
+    margin-top: -5%;
     margin-right: 8%;
   }
   .modalrunner{
@@ -633,7 +633,7 @@ width: 15%;
     position: absolute;
     padding-top: 15%;
     left: 23%;
-    top: 60%;
+    top: 59%;
     width: 55%;
     height: auto;
   }
@@ -1035,14 +1035,14 @@ width: 15%;
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  padding-top: 55.25%; /* 16:9 Aspect Ratio */
 }
 .quiz{
   position: absolute;
-  top: -9%;
+  top: -8%;
   left: 14%;
   width: 80%;
-  height: 200%;
+  height: 110%;
   border: none;
 }
 .closequiz {
@@ -1117,7 +1117,7 @@ width: 15%;
   font-family: Ubuntu;
   font-weight:regular;
   left:2%;
-  top:49%;
+  top:48.5%;
    
 }
 .epidaurus-theatre{
@@ -1187,9 +1187,9 @@ position: relative;
 }
 .draganddrop{
   position: absolute;
-  top: -25%;
-  left: 10%;
-  width: 100%;
+  top: -32%;
+  left: -10%;
+  width: 158%;
   height: 150%;
   border: none;
 }
