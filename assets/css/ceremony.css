@@ -8,7 +8,7 @@ body  {
   left:42.5%;
   font-family: Ubuntu;
   font-weight: normal;
-  font-size: 0.675em;
+  font-size: 0.684em;
   line-height: 2.125em;
   text-align: center;
   color: black;
@@ -24,13 +24,13 @@ body  {
 { position: absolute;
   top: 39%;
   left: 4.5%;
-  width: 33%;
+  width: 35%;
   height: 60%;
 }
 .tooltip-vol {
       /*image*/
   position: absolute;
-  left: 66.2%;
+  left: 66.4%;
   top: 25%;
 }
 .tooltip-vol .tooltiptext-vol {
