@@ -20,7 +20,6 @@ The game is a friendly way of learning and a powerful tool to develop new skills
 * HTML5
 * CSS3
 * JavaScript (ES6)
-* JQuery 3.5
 
 ## Technical characteristics
 
